@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26228.4
+VisualStudioVersion = 15.0.26923.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestGame", "TestGame\TestGame.csproj", "{39FB04DA-74E3-414D-B1BF-5FDF5B7BE4E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndroidPhoneGame", "AndroidPhoneGame\AndroidPhoneGame.csproj", "{530FDDDB-24D2-4677-9E71-0B449901895F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,17 @@ Global
 		{39FB04DA-74E3-414D-B1BF-5FDF5B7BE4E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39FB04DA-74E3-414D-B1BF-5FDF5B7BE4E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39FB04DA-74E3-414D-B1BF-5FDF5B7BE4E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{530FDDDB-24D2-4677-9E71-0B449901895F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{530FDDDB-24D2-4677-9E71-0B449901895F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{530FDDDB-24D2-4677-9E71-0B449901895F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{530FDDDB-24D2-4677-9E71-0B449901895F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{530FDDDB-24D2-4677-9E71-0B449901895F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{530FDDDB-24D2-4677-9E71-0B449901895F}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A7284C1B-C74C-4EE9-91A4-429469398700}
 	EndGlobalSection
 EndGlobal

@@ -43,7 +43,7 @@ namespace TestGame
                     selectedNumber = int.Parse(_reader.ReadInput());
                     if (selectedNumber == -5)
                     {
-                        _writer.WriteGameMessage(name, $"Shh... the number is {randNum}");
+                        _writer.WriteGameMessage(name, $"Shhh... the number is {randNum}");
                     }
                     else if (selectedNumber > randNum)
                     {
